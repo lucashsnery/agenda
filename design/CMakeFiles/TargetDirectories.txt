@@ -1,3 +1,0 @@
-C:/Users/neryl/agenda/design/CMakeFiles/agenda_cli.dir
-C:/Users/neryl/agenda/design/CMakeFiles/edit_cache.dir
-C:/Users/neryl/agenda/design/CMakeFiles/rebuild_cache.dir
