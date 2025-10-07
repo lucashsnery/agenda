@@ -1,0 +1,18 @@
+{
+    "events": [
+        {
+            "date": "2025-10-06",
+            "end_hour": 26,
+            "end_minute": 0,
+            "id": "{714dbd29-c882-4a69-9909-029390f3d511}",
+            "recurrence_frequency": null,
+            "recurrence_interval": 0,
+            "start_hour": 23,
+            "start_minute": 0,
+            "tags": [
+                "Lucas"
+            ],
+            "title": "Festa"
+        }
+    ]
+}

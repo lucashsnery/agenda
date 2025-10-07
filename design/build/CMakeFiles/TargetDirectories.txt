@@ -1,4 +1,8 @@
-C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_core.dir
 C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_cli.dir
+C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_gui.dir
 C:/Users/neryl/agenda/design/build/CMakeFiles/edit_cache.dir
 C:/Users/neryl/agenda/design/build/CMakeFiles/rebuild_cache.dir
+C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_cli_autogen_timestamp_deps.dir
+C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_cli_autogen.dir
+C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_gui_autogen_timestamp_deps.dir
+C:/Users/neryl/agenda/design/build/CMakeFiles/agenda_gui_autogen.dir

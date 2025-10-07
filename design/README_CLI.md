@@ -6,7 +6,7 @@ Como compilar e executar (linha de comando):
 cd design
 mkdir build 
 cd build
-cmake -G "MinGW Makefiles" ..
+cmake -G "MinGW Makefiles" -DCMAKE_PREFIX_PATH="C:/Qt/6.9.3/mingw_64/lib/cmake" ..
 cmake --build .
 ./agenda_cli   # ou agenda_cli.exe no Windows
 ```

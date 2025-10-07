@@ -1,7 +1,5 @@
 #pragma once
 #include <string>
-#include <memory>
-#include <optional>
 
 namespace agenda {
 
@@ -11,14 +9,14 @@ class RecurrenceRule {
 public:
     RecurrenceRule() = default;
     RecurrenceRule(Frequency freq, int interval = 1);
-    virtual ~RecurrenceRule() = default;
+    ~RecurrenceRule() = default;
 
     Frequency frequency() const noexcept;
     int interval() const noexcept;
 
-    virtual bool applies_to(const std::string& iso_date) const = 0;
+    bool applies_to(const std::string& iso_date) const;
 
-protected:
+private:
     Frequency _freq{Frequency::DAILY};
     int _interval{1};
 };

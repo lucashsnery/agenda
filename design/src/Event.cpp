@@ -21,7 +21,11 @@ void Event::set_date(const std::string& d) { _date = d; }
 Time_x Event::start_time() const noexcept { return _start; }
 Time_x Event::end_time() const noexcept { return _end; }
 void Event::set_time(Time_x s, Time_x e) {
-    _start = s; _end = e;
+    if (s.hour < 0 || s.minute < 0 || s.minute > 59 ||
+        e.hour < 0 || e.minute < 0 || e.minute > 59)
+        throw std::invalid_argument("Horário inválido");
+    _start = s;
+    _end = e;
 }
 bool Event::ends_next_day() const {
     return _end < _start;

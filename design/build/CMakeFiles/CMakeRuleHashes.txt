@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+a95b2e5b1577ce18ac9ded95bf887ae8 CMakeFiles/agenda_cli_autogen
+a95b2e5b1577ce18ac9ded95bf887ae8 CMakeFiles/agenda_gui_autogen
+a8db29363df624ee48639b4f6d82abbf agenda_cli_autogen/timestamp
+d4a203dc999102d8694d8ce8bd276192 agenda_gui_autogen/timestamp

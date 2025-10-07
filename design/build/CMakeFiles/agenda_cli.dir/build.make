@@ -71,11 +71,26 @@ include CMakeFiles/agenda_cli.dir/flags.make
 CMakeFiles/agenda_cli.dir/codegen:
 .PHONY : CMakeFiles/agenda_cli.dir/codegen
 
+CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj: agenda_cli_autogen/mocs_compilation.cpp
+CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\agenda_cli.dir\agenda_cli_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\agenda_cli.dir\agenda_cli_autogen\mocs_compilation.cpp.obj -c C:\Users\neryl\agenda\design\build\agenda_cli_autogen\mocs_compilation.cpp
+
+CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\build\agenda_cli_autogen\mocs_compilation.cpp > CMakeFiles\agenda_cli.dir\agenda_cli_autogen\mocs_compilation.cpp.i
+
+CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\build\agenda_cli_autogen\mocs_compilation.cpp -o CMakeFiles\agenda_cli.dir\agenda_cli_autogen\mocs_compilation.cpp.s
+
 CMakeFiles/agenda_cli.dir/src/main.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
 CMakeFiles/agenda_cli.dir/src/main.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
 CMakeFiles/agenda_cli.dir/src/main.cpp.obj: C:/Users/neryl/agenda/design/src/main.cpp
 CMakeFiles/agenda_cli.dir/src/main.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/agenda_cli.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/agenda_cli.dir/src/main.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/main.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\main.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\main.cpp.obj -c C:\Users\neryl\agenda\design\src\main.cpp
 
 CMakeFiles/agenda_cli.dir/src/main.cpp.i: cmake_force
@@ -86,20 +101,140 @@ CMakeFiles/agenda_cli.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/main.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\main.cpp -o CMakeFiles\agenda_cli.dir\src\main.cpp.s
 
+CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj: C:/Users/neryl/agenda/design/src/Calendar.cpp
+CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\Calendar.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\Calendar.cpp.obj -c C:\Users\neryl\agenda\design\src\Calendar.cpp
+
+CMakeFiles/agenda_cli.dir/src/Calendar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/Calendar.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\Calendar.cpp > CMakeFiles\agenda_cli.dir\src\Calendar.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/Calendar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/Calendar.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\Calendar.cpp -o CMakeFiles\agenda_cli.dir\src\Calendar.cpp.s
+
+CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj: C:/Users/neryl/agenda/design/src/CLI.cpp
+CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\CLI.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\CLI.cpp.obj -c C:\Users\neryl\agenda\design\src\CLI.cpp
+
+CMakeFiles/agenda_cli.dir/src/CLI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/CLI.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\CLI.cpp > CMakeFiles\agenda_cli.dir\src\CLI.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/CLI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/CLI.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\CLI.cpp -o CMakeFiles\agenda_cli.dir\src\CLI.cpp.s
+
+CMakeFiles/agenda_cli.dir/src/Event.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/Event.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/Event.cpp.obj: C:/Users/neryl/agenda/design/src/Event.cpp
+CMakeFiles/agenda_cli.dir/src/Event.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/agenda_cli.dir/src/Event.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/Event.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\Event.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\Event.cpp.obj -c C:\Users\neryl\agenda\design\src\Event.cpp
+
+CMakeFiles/agenda_cli.dir/src/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/Event.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\Event.cpp > CMakeFiles\agenda_cli.dir\src\Event.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/Event.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\Event.cpp -o CMakeFiles\agenda_cli.dir\src\Event.cpp.s
+
+CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj: C:/Users/neryl/agenda/design/src/JsonPersistence.cpp
+CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\JsonPersistence.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\JsonPersistence.cpp.obj -c C:\Users\neryl\agenda\design\src\JsonPersistence.cpp
+
+CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\JsonPersistence.cpp > CMakeFiles\agenda_cli.dir\src\JsonPersistence.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\JsonPersistence.cpp -o CMakeFiles\agenda_cli.dir\src\JsonPersistence.cpp.s
+
+CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj: C:/Users/neryl/agenda/design/src/RecurrenceRule.cpp
+CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\RecurrenceRule.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\RecurrenceRule.cpp.obj -c C:\Users\neryl\agenda\design\src\RecurrenceRule.cpp
+
+CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\RecurrenceRule.cpp > CMakeFiles\agenda_cli.dir\src\RecurrenceRule.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\RecurrenceRule.cpp -o CMakeFiles\agenda_cli.dir\src\RecurrenceRule.cpp.s
+
+CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj: C:/Users/neryl/agenda/design/src/Time_x.cpp
+CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\Time_x.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\Time_x.cpp.obj -c C:\Users\neryl\agenda\design\src\Time_x.cpp
+
+CMakeFiles/agenda_cli.dir/src/Time_x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/Time_x.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\Time_x.cpp > CMakeFiles\agenda_cli.dir\src\Time_x.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/Time_x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/Time_x.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\Time_x.cpp -o CMakeFiles\agenda_cli.dir\src\Time_x.cpp.s
+
+CMakeFiles/agenda_cli.dir/src/User.cpp.obj: CMakeFiles/agenda_cli.dir/flags.make
+CMakeFiles/agenda_cli.dir/src/User.cpp.obj: CMakeFiles/agenda_cli.dir/includes_CXX.rsp
+CMakeFiles/agenda_cli.dir/src/User.cpp.obj: C:/Users/neryl/agenda/design/src/User.cpp
+CMakeFiles/agenda_cli.dir/src/User.cpp.obj: CMakeFiles/agenda_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/agenda_cli.dir/src/User.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agenda_cli.dir/src/User.cpp.obj -MF CMakeFiles\agenda_cli.dir\src\User.cpp.obj.d -o CMakeFiles\agenda_cli.dir\src\User.cpp.obj -c C:\Users\neryl\agenda\design\src\User.cpp
+
+CMakeFiles/agenda_cli.dir/src/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agenda_cli.dir/src/User.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\neryl\agenda\design\src\User.cpp > CMakeFiles\agenda_cli.dir\src\User.cpp.i
+
+CMakeFiles/agenda_cli.dir/src/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agenda_cli.dir/src/User.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\neryl\agenda\design\src\User.cpp -o CMakeFiles\agenda_cli.dir\src\User.cpp.s
+
 # Object files for target agenda_cli
 agenda_cli_OBJECTS = \
-"CMakeFiles/agenda_cli.dir/src/main.cpp.obj"
+"CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/main.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/Event.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj" \
+"CMakeFiles/agenda_cli.dir/src/User.cpp.obj"
 
 # External object files for target agenda_cli
 agenda_cli_EXTERNAL_OBJECTS =
 
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj
 agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/main.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/Event.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj
+agenda_cli.exe: CMakeFiles/agenda_cli.dir/src/User.cpp.obj
 agenda_cli.exe: CMakeFiles/agenda_cli.dir/build.make
-agenda_cli.exe: libagenda_core.a
 agenda_cli.exe: CMakeFiles/agenda_cli.dir/linkLibs.rsp
 agenda_cli.exe: CMakeFiles/agenda_cli.dir/objects1.rsp
 agenda_cli.exe: CMakeFiles/agenda_cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable agenda_cli.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\neryl\agenda\design\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable agenda_cli.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\agenda_cli.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

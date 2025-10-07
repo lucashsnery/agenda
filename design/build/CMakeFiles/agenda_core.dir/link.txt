@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc libagenda_core.a CMakeFiles/agenda_core.dir/src/Time.cpp.obj CMakeFiles/agenda_core.dir/src/Event.cpp.obj CMakeFiles/agenda_core.dir/src/RecurrenceRule.cpp.obj CMakeFiles/agenda_core.dir/src/Calendar.cpp.obj CMakeFiles/agenda_core.dir/src/JsonPersistence.cpp.obj CMakeFiles/agenda_core.dir/src/CLI.cpp.obj
-C:\mingw64\bin\ranlib.exe libagenda_core.a

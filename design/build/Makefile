@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named agenda_core
-
-# Build rule for target.
-agenda_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 agenda_core
-.PHONY : agenda_core
-
-# fast build rule for target.
-agenda_core/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/build
-.PHONY : agenda_core/fast
-
-#=============================================================================
 # Target rules for targets named agenda_cli
 
 # Build rule for target.
@@ -141,12 +128,126 @@ agenda_cli/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/build
 .PHONY : agenda_cli/fast
 
+#=============================================================================
+# Target rules for targets named agenda_gui
+
+# Build rule for target.
+agenda_gui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 agenda_gui
+.PHONY : agenda_gui
+
+# fast build rule for target.
+agenda_gui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/build
+.PHONY : agenda_gui/fast
+
+#=============================================================================
+# Target rules for targets named agenda_cli_autogen_timestamp_deps
+
+# Build rule for target.
+agenda_cli_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 agenda_cli_autogen_timestamp_deps
+.PHONY : agenda_cli_autogen_timestamp_deps
+
+# fast build rule for target.
+agenda_cli_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli_autogen_timestamp_deps.dir\build.make CMakeFiles/agenda_cli_autogen_timestamp_deps.dir/build
+.PHONY : agenda_cli_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named agenda_cli_autogen
+
+# Build rule for target.
+agenda_cli_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 agenda_cli_autogen
+.PHONY : agenda_cli_autogen
+
+# fast build rule for target.
+agenda_cli_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli_autogen.dir\build.make CMakeFiles/agenda_cli_autogen.dir/build
+.PHONY : agenda_cli_autogen/fast
+
+#=============================================================================
+# Target rules for targets named agenda_gui_autogen_timestamp_deps
+
+# Build rule for target.
+agenda_gui_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 agenda_gui_autogen_timestamp_deps
+.PHONY : agenda_gui_autogen_timestamp_deps
+
+# fast build rule for target.
+agenda_gui_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui_autogen_timestamp_deps.dir\build.make CMakeFiles/agenda_gui_autogen_timestamp_deps.dir/build
+.PHONY : agenda_gui_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named agenda_gui_autogen
+
+# Build rule for target.
+agenda_gui_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 agenda_gui_autogen
+.PHONY : agenda_gui_autogen
+
+# fast build rule for target.
+agenda_gui_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui_autogen.dir\build.make CMakeFiles/agenda_gui_autogen.dir/build
+.PHONY : agenda_gui_autogen/fast
+
+agenda_cli_autogen/mocs_compilation.obj: agenda_cli_autogen/mocs_compilation.cpp.obj
+.PHONY : agenda_cli_autogen/mocs_compilation.obj
+
+# target to build an object file
+agenda_cli_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.obj
+.PHONY : agenda_cli_autogen/mocs_compilation.cpp.obj
+
+agenda_cli_autogen/mocs_compilation.i: agenda_cli_autogen/mocs_compilation.cpp.i
+.PHONY : agenda_cli_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+agenda_cli_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.i
+.PHONY : agenda_cli_autogen/mocs_compilation.cpp.i
+
+agenda_cli_autogen/mocs_compilation.s: agenda_cli_autogen/mocs_compilation.cpp.s
+.PHONY : agenda_cli_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+agenda_cli_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/agenda_cli_autogen/mocs_compilation.cpp.s
+.PHONY : agenda_cli_autogen/mocs_compilation.cpp.s
+
+agenda_gui_autogen/mocs_compilation.obj: agenda_gui_autogen/mocs_compilation.cpp.obj
+.PHONY : agenda_gui_autogen/mocs_compilation.obj
+
+# target to build an object file
+agenda_gui_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/agenda_gui_autogen/mocs_compilation.cpp.obj
+.PHONY : agenda_gui_autogen/mocs_compilation.cpp.obj
+
+agenda_gui_autogen/mocs_compilation.i: agenda_gui_autogen/mocs_compilation.cpp.i
+.PHONY : agenda_gui_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+agenda_gui_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/agenda_gui_autogen/mocs_compilation.cpp.i
+.PHONY : agenda_gui_autogen/mocs_compilation.cpp.i
+
+agenda_gui_autogen/mocs_compilation.s: agenda_gui_autogen/mocs_compilation.cpp.s
+.PHONY : agenda_gui_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+agenda_gui_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/agenda_gui_autogen/mocs_compilation.cpp.s
+.PHONY : agenda_gui_autogen/mocs_compilation.cpp.s
+
 src/CLI.obj: src/CLI.cpp.obj
 .PHONY : src/CLI.obj
 
 # target to build an object file
 src/CLI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/CLI.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/CLI.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/CLI.cpp.obj
 .PHONY : src/CLI.cpp.obj
 
 src/CLI.i: src/CLI.cpp.i
@@ -154,7 +255,8 @@ src/CLI.i: src/CLI.cpp.i
 
 # target to preprocess a source file
 src/CLI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/CLI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/CLI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/CLI.cpp.i
 .PHONY : src/CLI.cpp.i
 
 src/CLI.s: src/CLI.cpp.s
@@ -162,7 +264,8 @@ src/CLI.s: src/CLI.cpp.s
 
 # target to generate assembly for a file
 src/CLI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/CLI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/CLI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/CLI.cpp.s
 .PHONY : src/CLI.cpp.s
 
 src/Calendar.obj: src/Calendar.cpp.obj
@@ -170,7 +273,8 @@ src/Calendar.obj: src/Calendar.cpp.obj
 
 # target to build an object file
 src/Calendar.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Calendar.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Calendar.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Calendar.cpp.obj
 .PHONY : src/Calendar.cpp.obj
 
 src/Calendar.i: src/Calendar.cpp.i
@@ -178,7 +282,8 @@ src/Calendar.i: src/Calendar.cpp.i
 
 # target to preprocess a source file
 src/Calendar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Calendar.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Calendar.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Calendar.cpp.i
 .PHONY : src/Calendar.cpp.i
 
 src/Calendar.s: src/Calendar.cpp.s
@@ -186,7 +291,8 @@ src/Calendar.s: src/Calendar.cpp.s
 
 # target to generate assembly for a file
 src/Calendar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Calendar.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Calendar.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Calendar.cpp.s
 .PHONY : src/Calendar.cpp.s
 
 src/Event.obj: src/Event.cpp.obj
@@ -194,7 +300,8 @@ src/Event.obj: src/Event.cpp.obj
 
 # target to build an object file
 src/Event.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Event.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Event.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Event.cpp.obj
 .PHONY : src/Event.cpp.obj
 
 src/Event.i: src/Event.cpp.i
@@ -202,7 +309,8 @@ src/Event.i: src/Event.cpp.i
 
 # target to preprocess a source file
 src/Event.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Event.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Event.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Event.cpp.i
 .PHONY : src/Event.cpp.i
 
 src/Event.s: src/Event.cpp.s
@@ -210,15 +318,41 @@ src/Event.s: src/Event.cpp.s
 
 # target to generate assembly for a file
 src/Event.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Event.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Event.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Event.cpp.s
 .PHONY : src/Event.cpp.s
+
+src/GUI.obj: src/GUI.cpp.obj
+.PHONY : src/GUI.obj
+
+# target to build an object file
+src/GUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/GUI.cpp.obj
+.PHONY : src/GUI.cpp.obj
+
+src/GUI.i: src/GUI.cpp.i
+.PHONY : src/GUI.i
+
+# target to preprocess a source file
+src/GUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/GUI.cpp.i
+.PHONY : src/GUI.cpp.i
+
+src/GUI.s: src/GUI.cpp.s
+.PHONY : src/GUI.s
+
+# target to generate assembly for a file
+src/GUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/GUI.cpp.s
+.PHONY : src/GUI.cpp.s
 
 src/JsonPersistence.obj: src/JsonPersistence.cpp.obj
 .PHONY : src/JsonPersistence.obj
 
 # target to build an object file
 src/JsonPersistence.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/JsonPersistence.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/JsonPersistence.cpp.obj
 .PHONY : src/JsonPersistence.cpp.obj
 
 src/JsonPersistence.i: src/JsonPersistence.cpp.i
@@ -226,7 +360,8 @@ src/JsonPersistence.i: src/JsonPersistence.cpp.i
 
 # target to preprocess a source file
 src/JsonPersistence.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/JsonPersistence.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/JsonPersistence.cpp.i
 .PHONY : src/JsonPersistence.cpp.i
 
 src/JsonPersistence.s: src/JsonPersistence.cpp.s
@@ -234,7 +369,8 @@ src/JsonPersistence.s: src/JsonPersistence.cpp.s
 
 # target to generate assembly for a file
 src/JsonPersistence.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/JsonPersistence.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/JsonPersistence.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/JsonPersistence.cpp.s
 .PHONY : src/JsonPersistence.cpp.s
 
 src/RecurrenceRule.obj: src/RecurrenceRule.cpp.obj
@@ -242,7 +378,8 @@ src/RecurrenceRule.obj: src/RecurrenceRule.cpp.obj
 
 # target to build an object file
 src/RecurrenceRule.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/RecurrenceRule.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/RecurrenceRule.cpp.obj
 .PHONY : src/RecurrenceRule.cpp.obj
 
 src/RecurrenceRule.i: src/RecurrenceRule.cpp.i
@@ -250,7 +387,8 @@ src/RecurrenceRule.i: src/RecurrenceRule.cpp.i
 
 # target to preprocess a source file
 src/RecurrenceRule.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/RecurrenceRule.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/RecurrenceRule.cpp.i
 .PHONY : src/RecurrenceRule.cpp.i
 
 src/RecurrenceRule.s: src/RecurrenceRule.cpp.s
@@ -258,32 +396,63 @@ src/RecurrenceRule.s: src/RecurrenceRule.cpp.s
 
 # target to generate assembly for a file
 src/RecurrenceRule.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/RecurrenceRule.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/RecurrenceRule.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/RecurrenceRule.cpp.s
 .PHONY : src/RecurrenceRule.cpp.s
 
-src/Time.obj: src/Time.cpp.obj
-.PHONY : src/Time.obj
+src/Time_x.obj: src/Time_x.cpp.obj
+.PHONY : src/Time_x.obj
 
 # target to build an object file
-src/Time.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Time.cpp.obj
-.PHONY : src/Time.cpp.obj
+src/Time_x.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Time_x.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Time_x.cpp.obj
+.PHONY : src/Time_x.cpp.obj
 
-src/Time.i: src/Time.cpp.i
-.PHONY : src/Time.i
+src/Time_x.i: src/Time_x.cpp.i
+.PHONY : src/Time_x.i
 
 # target to preprocess a source file
-src/Time.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Time.cpp.i
-.PHONY : src/Time.cpp.i
+src/Time_x.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Time_x.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Time_x.cpp.i
+.PHONY : src/Time_x.cpp.i
 
-src/Time.s: src/Time.cpp.s
-.PHONY : src/Time.s
+src/Time_x.s: src/Time_x.cpp.s
+.PHONY : src/Time_x.s
 
 # target to generate assembly for a file
-src/Time.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_core.dir\build.make CMakeFiles/agenda_core.dir/src/Time.cpp.s
-.PHONY : src/Time.cpp.s
+src/Time_x.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/Time_x.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/Time_x.cpp.s
+.PHONY : src/Time_x.cpp.s
+
+src/User.obj: src/User.cpp.obj
+.PHONY : src/User.obj
+
+# target to build an object file
+src/User.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/User.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/User.cpp.obj
+.PHONY : src/User.cpp.obj
+
+src/User.i: src/User.cpp.i
+.PHONY : src/User.i
+
+# target to preprocess a source file
+src/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/User.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/User.cpp.i
+.PHONY : src/User.cpp.i
+
+src/User.s: src/User.cpp.s
+.PHONY : src/User.s
+
+# target to generate assembly for a file
+src/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/User.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/User.cpp.s
+.PHONY : src/User.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -309,6 +478,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_cli.dir\build.make CMakeFiles/agenda_cli.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main_gui.obj: src/main_gui.cpp.obj
+.PHONY : src/main_gui.obj
+
+# target to build an object file
+src/main_gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/main_gui.cpp.obj
+.PHONY : src/main_gui.cpp.obj
+
+src/main_gui.i: src/main_gui.cpp.i
+.PHONY : src/main_gui.i
+
+# target to preprocess a source file
+src/main_gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/main_gui.cpp.i
+.PHONY : src/main_gui.cpp.i
+
+src/main_gui.s: src/main_gui.cpp.s
+.PHONY : src/main_gui.s
+
+# target to generate assembly for a file
+src/main_gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agenda_gui.dir\build.make CMakeFiles/agenda_gui.dir/src/main_gui.cpp.s
+.PHONY : src/main_gui.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -317,8 +510,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... agenda_cli_autogen
+	@echo ... agenda_cli_autogen_timestamp_deps
+	@echo ... agenda_gui_autogen
+	@echo ... agenda_gui_autogen_timestamp_deps
 	@echo ... agenda_cli
-	@echo ... agenda_core
+	@echo ... agenda_gui
+	@echo ... agenda_cli_autogen/mocs_compilation.obj
+	@echo ... agenda_cli_autogen/mocs_compilation.i
+	@echo ... agenda_cli_autogen/mocs_compilation.s
+	@echo ... agenda_gui_autogen/mocs_compilation.obj
+	@echo ... agenda_gui_autogen/mocs_compilation.i
+	@echo ... agenda_gui_autogen/mocs_compilation.s
 	@echo ... src/CLI.obj
 	@echo ... src/CLI.i
 	@echo ... src/CLI.s
@@ -328,18 +531,27 @@ help:
 	@echo ... src/Event.obj
 	@echo ... src/Event.i
 	@echo ... src/Event.s
+	@echo ... src/GUI.obj
+	@echo ... src/GUI.i
+	@echo ... src/GUI.s
 	@echo ... src/JsonPersistence.obj
 	@echo ... src/JsonPersistence.i
 	@echo ... src/JsonPersistence.s
 	@echo ... src/RecurrenceRule.obj
 	@echo ... src/RecurrenceRule.i
 	@echo ... src/RecurrenceRule.s
-	@echo ... src/Time.obj
-	@echo ... src/Time.i
-	@echo ... src/Time.s
+	@echo ... src/Time_x.obj
+	@echo ... src/Time_x.i
+	@echo ... src/Time_x.s
+	@echo ... src/User.obj
+	@echo ... src/User.i
+	@echo ... src/User.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/main_gui.obj
+	@echo ... src/main_gui.i
+	@echo ... src/main_gui.s
 .PHONY : help
 
 
